@@ -17,7 +17,7 @@ def remove_user(users_data: list[dict]) -> None:
             users_data.remove(user)
 
 
-def upadte_user(users_data: list[dict]) -> None:
+def update_user(users_data: list[dict]) -> None:
     user_name = input('Podaj imię użytkownika do zmodyfikowania: ')
     for user in users_data:
         if user['name'] == user_name:
