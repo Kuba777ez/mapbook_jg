@@ -1,4 +1,4 @@
-from utils.controller import get_user_info, add_user, remove_user
+from utils.controller import get_user_info, add_user, remove_user, update_user
 from utils.model import users
 
 
@@ -10,6 +10,7 @@ def main():
         print('1 - Get user info')
         print('2 - Add user')
         print('3 - Remove user')
+        print('4 - Update user')
         print('=========================')
 
 
